@@ -2,7 +2,7 @@
 
 use Website\Controller\Action;
 
-class DefaultController extends Action {
+class YoutubeController extends Action {
 	
 	public function defaultAction () {
 		$this->enableLayout();

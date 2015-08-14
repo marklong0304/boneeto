@@ -1,0 +1,153 @@
+html, body
+{
+    a
+    {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover,
+        &:focus
+        {
+            color: inherit;
+        }
+    }
+}
+
+header
+{
+    min-height: 100px;
+    line-height: 100px;
+
+    a.brand
+    {
+        display: block;
+        position: relative;
+        & > img
+        {
+            min-width: 80%;
+            max-width: 80%;
+            height: auto;
+            display: block;
+        }
+    }
+
+    nav
+    {
+        ul, ol
+        {
+            margin: 0 auto;
+            padding: 0;
+            display: table;
+            width: 100%;
+            & > li
+            {
+                display: table-cell; //inline-block;
+                margin: 0 auto;
+                padding: 0;
+                list-style: none;
+                position: relative;
+                & > a
+                {
+                    display: block;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+}
+
+footer
+{
+    min-height: 50px;
+    line-height: 50px;
+
+    ul, ol, p
+    {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    ul, ol
+    {
+        text-align: right;
+        & > li
+        {
+            display: inline-block;
+            list-style: none;
+            margin: 0 auto;
+            padding: 0 8px;
+
+            &:last-child
+            {
+                padding-right: 0;
+            }
+
+            & > a
+            {
+                display: block;
+            }
+        }
+    }
+
+}
+
+.carousel-home
+{
+    background: #111;
+}
+
+.section-title
+{
+    h1, h2, h3, h4, h5, h6
+    {
+        margin: 0 auto;
+        padding: 0;
+        @include fontMontserrat();
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    p
+    {
+        margin: 8px auto 0;
+        padding: 0;
+    }
+}
+
+section.single
+{
+    a
+    {
+        color: red;
+        text-decoration: underline;
+
+        &:hover,
+        &:focus
+        {
+            color: red;
+            text-decoration: none;
+            outline: none;
+        }
+    }
+}
+
+.gallery
+{
+    .gallery-item
+    {
+        display: block;
+
+        .gallery-item-meta
+        {
+            padding: 8px 0;
+            p
+            {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+    }
+}

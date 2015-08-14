@@ -2,7 +2,7 @@
 
 use Website\Controller\Action;
 
-class DefaultController extends Action {
+class VideoController extends Action {
 	
 	public function defaultAction () {
 		$this->enableLayout();
