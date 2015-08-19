@@ -50,15 +50,15 @@
 					    <form name="form_upload" id="uploadForm" method="post" action="/video/submit" role="form" class="form-horizontal">
                             <div class="form-group">
                                 <label>Video URL <small>*Must be on YouTube</small></label>
-                                <input type="url" class="form-control" placeholder="https://www.youtube.com/watch?v=S_ucMS7sxx8" tabindex="1" required>
+                                <input type="url" class="form-control" placeholder="https://www.youtube.com/watch?v=S_ucMS7sxx8" tabindex="1" name='youtube_url' required>
                             </div><!--/ .form-group -->
                             <div class="form-group">
                                 <label>Title</label>
-                                <input type="text" class="form-control" placeholder="They See Me Rollin' They Hatin'" tabindex="2" maxlength="70" required>
+                                <input type="text" class="form-control" placeholder="They See Me Rollin' They Hatin'" tabindex="2" maxlength="70" name='title' required>
                             </div><!--/ .form-group -->
                             <div class="form-group">
                                 <label>Description</label>
-                                <textarea class="form-control" tabindex="3" rows="5" maxlength="140" placeholder="Description"></textarea>
+                                <textarea class="form-control" tabindex="3" rows="5" maxlength="140" placeholder="Description" name='desc'></textarea>
                             </div><!--/ .form-group -->
                             <div id="uploadFormResponse" class="hidden">
                                 <div class="alert alert-info alert-dismissible" role="alert">

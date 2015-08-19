@@ -9,10 +9,10 @@
                     <div class="col-xs-12 col-md-8">
                         <nav>
                             <ul>
-                                <li><a href="?p=home">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="#" data-toggle="modal" data-target="#modalUpload">Upload</a></li>
-                                <li><a href="?p=gallery">Gallery</a></li>
-                                <li><a href="?p=single">Terms &amp; Conditions</a></li>
+                                <li><a href="/gallery">Gallery</a></li>
+                                <li><a href="/term-conditions">Terms &amp; Conditions</a></li>
                             </ul>
                         </nav>
                     </div><!--/ .col-xs-12 -->
