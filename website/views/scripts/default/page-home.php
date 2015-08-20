@@ -139,7 +139,7 @@
 		foreach ($videos as $v) { 
 		?>
 			
-        <div class="row mb32">
+        <!--<div class="row mb32">-->
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <a href="#" class="gallery-item" data-title="Video 1" data-views="1566123" data-likes="1566123" data-url="<?php echo youtube_get_id($v->youtubeLinks); ?>">
                     <img src="<?php echo youtube_get_thumbnail($v->youtubeLinks); ?>" alt="Title" class="img-responsive">
@@ -147,15 +147,16 @@
                         <h4><?php echo $v->title ; ?></h4>
                         <div class="row">
                             <div class="col-xs-12 col-sm-6">
-                                <p><i class="fa fa-eye"></i> 1,566,123</p>
+                               <!-- <p><i class="fa fa-eye"></i> 1,566,123</p>-->
                             </div><!--/ .col-xs-12 -->
                             <div class="col-xs-12 col-sm-6 text-right">
-                                <p><i class="fa fa-thumbs-o-up"></i> 1,566,123</p>
+                                <!--<p><i class="fa fa-thumbs-o-up"></i> 1,566,123</p>-->
                             </div><!--/ .col-xs-12 -->
                         </div>
                     </div><!--/ .gallery-item-meta -->
                 </a>
             </div><!--/ .col-xs-12 -->
+		<!--</div>-->
 		<?php  } ?>
             
         <div class="row">

@@ -25,13 +25,20 @@ class VideoController extends Action {
 		$videos->setyoutubeLinks($youtube_url);
 		$videos->settitle($title);
 		$videos->setdesc($desc);
+				
+		$videoData= new Object\Data\Video();
+		$videoData->setData(substr($youtube_url, -11));
+		$videoData->setType("youtube");
+		//$videoData->setPoster($assetImage);
+		$videoData->setTitle($title);
+		$videoData->setDescription($desc);
+		$videos->setvideo($videoData);
+		
 		$videos->setKey(strtolower($namekey));
-		$videos->setO_parentId('2');
+		$videos->setO_parentId('20');
 		$videos->setIndex(0);
 		$videos->setPublished(1);
 		$videos->save();
-		// print_r($videos);
-		// die();
 		$this->_redirect('/');
 	}
 }
