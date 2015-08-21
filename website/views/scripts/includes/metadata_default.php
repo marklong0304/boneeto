@@ -27,6 +27,12 @@
 	.main.onepage-wrapper{
 		margin-top: -30px;
 	}
+	/*navigasi nambah event*/
+	.medium-8.column.text-right{
+	    float: left;
+	    width: 100%;
+	    margin-left: 310px;
+	}
 </style>
  
 <?php if($_SERVER[REQUEST_URI]=="/susu-bubuk"||$_SERVER[REQUEST_URI]=="/susu-cair"){ ?>
