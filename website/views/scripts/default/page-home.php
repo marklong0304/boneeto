@@ -161,7 +161,7 @@
             
         <div class="row">
             <div class="col-xs-12 text-center">
-                <a href="?p=gallery" class="btn btn-default">Lihat Semua</a>
+                <a href="/gallery" class="btn btn-default">Lihat Semua</a>
             </div><!--/ .col-xs-12 -->
         </div><!--/ .row -->
 
