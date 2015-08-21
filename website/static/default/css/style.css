@@ -1,0 +1,893 @@
+* {
+margin: 0;
+}
+.wrapperbayar { 
+	
+	}
+
+body#index1 { 
+  /*background: url(../img/background1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  
+    /* background: linear-gradient(#d06cac, #ffffff); */
+ background: url('../img/bghome.png') repeat-x fixed bottom center / cover transparent;
+    width: 100%;
+    min-height: 100%;
+}
+
+body#indexbayar { 
+  /*background: url(../img/background1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  
+    /* background: linear-gradient(#d06cac, #ffffff); */
+ background: url('../img/bgkonfirmbayar.jpg') repeat-x #f0e4f2;
+    width: 100%;
+    min-height: 100%;
+}
+html, body {
+min-height: 100%;
+}
+.wrapper {
+	min-height:100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -46px;
+}
+.footertop{
+	
+	 	text-align:right;
+	 	padding:10px;
+	 	/*background: url('../img/bgfooter-top.png') no-repeat bottom center;*/
+		background: url('../img/bgfooter.png') no-repeat bottom center;
+		margin-top: -60px;
+		min-height:128px;
+	 }
+.footer{
+	 /*	position: relative !important;
+	 	bottom: 0px;
+	 	background:#c59ace;
+	 	height:46px;
+	 	width: 100%;
+	 	text-align:right;
+	 	padding:10px;*/
+	 	height:50px;
+	 	text-align:right;
+	 	
+	 	padding:10px;
+	 	background: url('../img/bgfooter-bottom.png') no-repeat center center;
+	 }
+	 
+.font-chapaza	 {
+font-family: "Chapaza";
+}
+.color-blue {
+color:#1e4695 !important;
+}
+.color-white {
+color:#fff !important;
+}
+.size10 {
+font-size:10px !important;
+}
+.size12 {
+font-size:12px !important;
+line-height:12px !important;
+}
+.size15 {
+font-size:15px !important;
+}
+.size23 {
+font-size:23px !important;
+}
+.size30 {
+font-size:30px !important;
+}
+.size40 {
+font-size:40px !important;
+}
+
+p.italic {font-style: italic !important;}
+	 
+	 
+.pull-right {	 padding-right: 50px !important;  }
+	 .push           { margin:      20px !important; }
+.push-top      { margin-top:   20px !important;  }
+.push-right    { margin-right: 20px !important;  }
+.push-bottom   { margin-bottom:20px !important;  }
+.push-left     { margin-left:  20px !important;  }
+.push-ends     { margin-top:   20px !important;  margin-bottom:20px !important;  }
+.push-sides    { margin-right: 20px !important;  margin-left:  20px !important;  }
+
+.push-half          { margin:       10px !important;  }
+.push-half-top     { margin-top:   10px !important;  }
+.push-half-right   { margin-right: 10px !important;  }
+.push-half-bottom  { margin-bottom:10px !important;  }
+.push-half-left    { margin-left:  10px !important;  }
+.push-half-ends    { margin-top:   10px !important;  margin-bottom:10px !important;  }
+.push-half-sides   { margin-right: 10px !important;  margin-left:  10px !important;  }
+
+.flush          { margin:       0!important; }
+.flush-top     { margin-top:   0!important; }
+.flush-right   { margin-right: 0!important; }
+.flush-bottom  { margin-bottom:0!important; }
+.flush-left    { margin-left:  0!important; }
+.flush-ends    { margin-top:   0!important; margin-bottom:0!important; }
+.flush-sides   { margin-right: 0!important; margin-left:  0!important; }
+
+
+
+
+
+
+@font-face {
+  font-family: 'HelveticaNeue Thin'; 
+  src:     url('../fonts/HelveticaNeue-Thin.otf')  format('opentype');
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'BebasNeue'; 
+  src:     url('../fonts/BebasNeue.otf')  format('opentype');
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'Chapaza'; 
+  src:     url('../fonts/Chapaza.ttf')  format('truetype');
+ 
+}
+@font-face {
+  font-family: 'Barmeno'; 
+  src:     url('../fonts/Barmeno.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Barmeno-Medium'; 
+  src:     url('../fonts/Barmeno-Medium.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Euphemia'; 
+  src:     url('../fonts/Euphemia.ttf')  format('truetype');
+}
+
+.orbit-container .orbit-timer {
+    display: none !important;
+}
+
+.slider {
+	position:relative;
+}
+.caption {
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	/*background:#d06cac;*/
+	background: url('../img/bgcaption.png') no-repeat center center;
+
+	color:#1E4695;
+	padding:30px 130px;
+}
+.title {font-size:60px;font-weight: lighter;}
+.subtitle {font-size:15px;font-weight: lighter;}
+.font-Euphemia
+{
+	font-family: 'Euphemia'; 
+}
+.font-Barmeno
+{
+	font-family: 'Barmeno'; 
+}
+
+.formbox
+{
+border-top:3px solid #dea3ca !important;
+border-left:3px solid #dea3ca !important;
+border-right:3px solid #dea3ca !important;
+background-color:#f5e2fb !important;
+}
+.formbox2
+{
+border-top:3px solid #dea3ca !important;
+border-left:3px solid #dea3ca !important;
+border-right:3px solid #dea3ca !important;
+background-color:#cab2d3 !important;
+}
+.orbit-container .orbit-next {
+    right: 3%;
+    width: 36px !important;
+    background: url('../img/slider-next.png') no-repeat scroll right top transparent;
+}
+.orbit-container .orbit-prev {
+    left: 3%;
+    width: 36px !important;
+    background: url('../img/slider-prev.png') no-repeat scroll left top transparent;
+}
+@media only screen and (min-width: 815px) {
+.orbit-container .orbit-next {
+    right: 96px;
+    width: 36px !important;
+    background: url('../img/slider-next.png') no-repeat scroll right top transparent;
+}
+.orbit-container .orbit-prev {
+    left: 96px;
+    width: 36px !important;
+    background: url('../img/slider-prev.png') no-repeat scroll left top transparent;
+}
+
+.medium-offset-3 {margin-left: 35% !important; }
+}
+
+
+.orbit-container .orbit-prev > span ,.orbit-container .orbit-next > span{
+    display:none !important;
+}
+
+.orbit-container .orbit-prev:hover {
+    background: url('../img/slider-prev.png') no-repeat top left;
+}
+.orbit-container .orbit-next:hover{
+ background: url('../img/slider-next.png') no-repeat top right;
+}
+.orbit-bullets {
+    margin: 0px auto 30px;
+    overflow: hidden;
+    position: relative;
+    top: -40px;
+    float: none;
+    text-align: center;
+    display: block;
+    z-index: 99;
+}
+.orbit-container .orbit-slides-container img {
+    display: block;
+    /*width: 100% !important;*/
+}
+.top-slider {
+	margin:auto;
+}
+.orbit-bullets li {
+    cursor: pointer;
+    display: inline-block;
+    width: 0.5625rem;
+    height: 0.5625rem;
+    /*background: none repeat scroll 0% 0% #fff;*/
+		background: url(../img/bullet-off.png) no-repeat;
+    float: none;
+    margin-right: 6px;
+   /* border-radius: 1000px;
+		border:1px solid #6690e3;*/
+}
+.orbit-bullets li.active {
+    /*background: none repeat scroll 0% 0% #6690e3;*/
+		background: url(../img/bullet-on.png) no-repeat;
+}
+
+
+.roadshow_collapse {
+background: url(../img/icon_expand.png) no-repeat;
+    width: 36px;
+    height: 36px;
+    display:inline-block;
+    margin-left: 20px;
+    margin-bottom: -5px;
+}
+
+/*for accordion */
+.collapses {
+    display: none;
+}
+
+.collapse.in {
+    display: block;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height .35s ease;
+}
+
+.collapse_width { 
+    width: 90%; 
+    word-break: break-word;
+    margin-top: 5px; 
+    clear: both;
+    font-size: 1em;
+    color: #666666;
+    border-bottom: 1px solid #949494;
+}
+.collapse_width > p { padding: 10px 0px 10px 0px; }
+.accordion_open {
+    background: url(../img/icon_expand.png);
+    width: 36px;
+    height: 36px;
+    float: right;
+    margin-top: 7px !important;
+		margin-right: 5px;
+}
+.accordion_close {
+    background: url(../img/icon_collapse.png);
+    width: 36px;
+    height: 36px;
+    float: right;
+	margin-top: 7px !important;
+		margin-right: 5px;
+}
+.accordionplus { 
+  float: right; 
+  margin-right: 10%; 
+  width: 36px;
+  height: 36px;
+}
+.accordion-border { 
+    width: 90%; height: 1px; 
+    background-color: #949494; 
+    clear: both; 
+    display: block;
+    margin-top: 25px; 
+}
+.accordion_title {
+    text-decoration: none;
+    color: #fff;
+    background:#1e4695;
+    padding:10px 20px;
+}
+.accordion_check {
+color:#fff !important;
+}
+
+.health-location {
+    background: url('../img/icon_locationPin.png') no-repeat scroll 5px 5px transparent;
+		font-size:12px !important;
+}
+.health-calender {
+    background: url('../img/Icon_calendar.png') no-repeat scroll 0px 5px transparent;
+		font-size:12px !important;
+}
+.health-bidan {
+    background: url('../img/Icon_bidan.png') no-repeat scroll 5px 5px transparent;
+		font-size:12px !important;
+		min-height: 30px !important;
+}
+.health-collapse-padding {
+    /*padding: 10px 35px;*/
+		padding: 0px 35px 0px 35px;
+}
+.location-content
+{
+	background:#fff;
+}
+
+
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+    /*background: none repeat scroll 0% 0% #1e4695;*/
+		background: url('../img/bgkelastitleoff.png') repeat-x;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    font-family: 'Barmeno',Helvetica,Roboto,Arial,sans-serif;
+    font-size: 30px;
+		height:62px !important;
+}
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    /*background: none repeat scroll 0% 0% #173570;
+		background: none repeat scroll 0% 0% #be9cc9;*/
+		background: url('../img/bgkelastitle.png') repeat-x;
+		
+}
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+     /*background: none repeat scroll 0% 0% #173570;
+		background: none repeat scroll 0% 0% #be9cc9;*/
+		background: url('../img/bgkelastitle.png') repeat-x;
+}
+.input_text
+{
+	border-radius: 7px !important;
+	height: 50px !important;
+	width:100% !important;
+	margin: 0px 0px 1rem !important;
+}
+
+.input_texts
+{
+	background:none !important;
+    background-color: #FFF;
+    font-family: inherit;
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    border-bottom:2px solid #aba6a9 !important;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1) inset !important;
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    margin: 0px 0px 1rem;
+    padding: 0.5rem;
+    height: 2.3125rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+    font-family: 'Euphemia';
+    font-size: 15px !important;
+    
+}
+label {
+    font-size: 18px;
+    color: #d06cac;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.asterick {color:#ff0000; }
+.active + img{
+    border:2px solid #1e4695 !important;
+}
+span.input_texts
+{
+	padding-left:10px;
+	margin-bottom:5px;
+	display:block;
+}
+
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+    display: block;
+    padding: 0.375rem 0.5625rem 0.5625rem;
+    margin-top: -1px;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-style: normal;
+    background: none;
+    color: #F00;
+    text-align: right;
+}
+[data-abide] span.error, [data-abide] small.error {
+    display: none;
+}
+
+.image-radio {
+	padding-left:5px;
+}
+
+.image-radio img
+{
+	border-radius:30px;
+	border:2px solid #ece4ea;
+	}
+	
+.buttonmain {
+background: url('../img/buttondaftar.png') no-repeat;
+width:220px;
+height:102px;
+border:none !important;
+}	
+/*end of accordion*/
+
+
+
+
+
+input[type="integer"],input[type="numeric"],select {
+    background-color: #FFF;
+    font-family: inherit;
+    border: 1px solid #CCC;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-size: 0.875rem;
+    margin: 0px 0px 1rem;
+    padding: 0.5rem;
+    height: 2.3125rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+}
+
+.backbutton {
+	background: url('../img/bgbutton.jpg') repeat-x;
+	color:#2d008e !important;
+font-size: 16px !important;
+bordeR: 1px solid #2d008e;
+}
+
+
+
+
+@media only screen and (max-width: 1280px) {
+
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: -100% 0; }
+}
+@keyframes animatedBackground2a {
+	from { background-position: 0 0; }
+	to { background-position: 0 30px; }
+}
+@keyframes animatedBackground2b {
+	from { background-position: 0 0px; }
+	to { background-position: 0 -30px; }
+}
+#container {
+    min-width: 100%;
+    min-height: 100%;
+    background: linear-gradient(#3D6CC4, #2587EF, #D1741D 80%,  #EC331C);
+    background-size:
+    1200px 1200px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+}
+
+#awan1	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/awan1.png);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+    position:absolute;
+    z-index: 1 !important;
+	animation: animatedBackground 400s linear infinite;
+}
+#awan2	{ 
+	width: 100%; 
+	height: 50%; 
+	background-image: url(../img/awan2.png);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+    position:absolute;
+    z-index: 5 !important;
+	animation: animatedBackground 300s linear infinite;
+    bottom:0px;
+}
+
+#pelikannaik	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikannaik.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 11 !important;
+	animation: animatedBackground2a 5s linear infinite alternate;
+    
+    bottom:0px;
+}
+#pelikanturun	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikanturun.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 12 !important;
+	animation: animatedBackground2b 2s linear infinite alternate;
+    
+    bottom:0px;
+}
+#pelikan1	{ 
+	background-image: url(../img/pelikan1.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 15 !important;
+	animation: animatedBackground2b 2s linear infinite alternate;
+    width: 100%; 
+	height: 100%;
+    bottom:0px;
+}
+#pelikan2	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan2.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 14 !important;
+	animation: animatedBackground2a 5s linear infinite alternate;
+    
+    bottom:0px;
+}
+#pelikan3	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan3.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 13 !important;
+	animation: animatedBackground2b 12s linear infinite alternate;
+    
+    bottom:0px;
+}
+
+#pelikan4	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan4.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 12 !important;
+	animation: animatedBackground2b 15s linear infinite alternate;
+    
+    bottom:0px;
+}
+
+
+
+#bgstill	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/bgstilltrans.png);
+    background-position: center top;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    position:absolute;
+    z-index: 10 !important;
+
+}
+
+.text-front {
+z-index: 100 !important;
+position: relative !important;
+}
+
+#text-kecil {
+font-family: sans-serif;
+    font-size:18px;
+    color:#005cab;
+}
+#text-besar {
+font-family: "Chapaza";
+    font-size:24px;
+    color:#005cab;
+}
+
+#countdown {
+position:relative !important;
+    z-index:101 !important;
+}
+.flip-clock-divider .flip-clock-label {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: #005cac;
+    font-family: "Chapaza";
+    font-size: 14px;
+    text-shadow: none;
+}
+}
+
+@media only screen and (max-width: 980px) {
+#pelikan1	{ 
+	background-image: url(../img/pelikan1-980.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 15 !important;
+	animation: animatedBackground2b 2s linear infinite alternate;
+    width: 100%; 
+	height: 100%;
+    bottom:0px;
+}
+#pelikan2	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan2-980.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 14 !important;
+	animation: animatedBackground2a 5s linear infinite alternate;
+    
+    bottom:0px;
+}
+#pelikan3	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan3-980.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 13 !important;
+	animation: animatedBackground2b 12s linear infinite alternate;
+    
+    bottom:0px;
+}
+
+#pelikan4	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan4-980.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 12 !important;
+	animation: animatedBackground2b 15s linear infinite alternate;
+    
+    bottom:0px;
+}
+#text-kecil {
+font-family: sans-serif;
+    font-size:16px;
+    color:#005cab;
+}
+#text-besar {
+font-family: "Chapaza";
+    font-size:20px;
+    color:#005cab;
+}
+}
+
+
+@media only screen and (max-width: 800px) {
+#pelikan1	{ 
+	background-image: url(../img/pelikan1-800.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 15 !important;
+	animation: animatedBackground2b 2s linear infinite alternate;
+    width: 100%; 
+	height: 100%;
+    bottom:0px;
+}
+#pelikan2	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan2-800.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 14 !important;
+	animation: animatedBackground2a 5s linear infinite alternate;
+    
+    bottom:0px;
+}
+#pelikan3	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan3-800.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 13 !important;
+	animation: animatedBackground2b 12s linear infinite alternate;
+    
+    bottom:0px;
+}
+
+#pelikan4	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/pelikan4-800.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    position:absolute;
+    z-index: 12 !important;
+	animation: animatedBackground2b 15s linear infinite alternate;
+    
+    bottom:0px;
+}
+    
+    #bgstill	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url(../img/bgstilltrans-980.png);
+    background-position: center top;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    position:absolute;
+    z-index: 10 !important;
+
+}
+.flip-clock-wrapper ul {
+  position: relative;
+  float: left;
+  margin: 5px;
+  width: 15%;
+  height: 100%;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 110%;
+  border-radius: 6px;
+  background: #000;
+}
+.clock {
+width: 100%;
+height: 80px;
+margin: 0 auto;
+}
+.flip-clock-wrapper ul {
+  position: relative;
+  float: left;
+  margin: 1%;
+  width: 11%;
+  height: 100%;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 110%;
+  border-radius: 6px;
+}
+.flip-clock-divider {
+  float: left;
+  display: inline-block;
+  position: relative;
+ width: 15px;
+  height: 100px; 
+}
+
+.flip-clock-wrapper ul li a div.up:after {
+  content: "";
+  position: absolute;
+  top: 94%;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 3px;
+}
+
+.flip-clock-wrapper ul li a div div.inn {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 200%;
+  color: #ccc;
+  text-shadow: 0 1px 2px #000;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 100%; }
+      .flip-clock-wrapper ul {
+    position: relative;
+    float: left;
+    width: 9%;
+    height: 100%;
+    font-size: 82px;
+    font-weight: bold;
+    border-radius: 6px;
+    line-height: 110px;
+    margin: 5px;
+}
+    .flip-clock-divider .flip-clock-label {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    color: #005CAC;
+    font-family: "Chapaza";
+    font-size: 14px;
+    text-shadow: none;
+}
+}
+
+@media only screen and (max-width: 360px) {
+.title {font-size:16px;font-weight: lighter;}
+.subtitle {font-size:8px;font-weight: lighter;line-height:8px;}
+.caption {
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	/*background:#d06cac;*/
+	background: url('../img/bgcaption.png') repeat center center;
+	padding:0px;
+	color:#fff;
+}
+}
+

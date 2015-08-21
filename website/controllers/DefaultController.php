@@ -6,6 +6,7 @@ class DefaultController extends Action {
 	
 	public function defaultAction () {
 		$this->enableLayout();
+		$this->setLayout('default');
 	}
 	public function galleryAction() {
 
