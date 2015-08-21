@@ -1,6 +1,6 @@
 <div class="col-xs-12 text-center">
     <ul class="pagination mt32">
-	    <?php if (isset($this->previous)): ?>
+	 <?php if (isset($this->previous)): ?>
         	<li><a href="<?php echo $this->urlprefix . $this->previous?>"><i class="fa fa-angle-left"></i></a></li>
         <?php else: ?>
         	&nbsp;
