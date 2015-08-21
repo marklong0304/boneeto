@@ -14,77 +14,56 @@
     </div>
     </div>
 </div>
- 
-<script  src="/website/static/default/js/vendor/modernizr.js"></script>
-<script  src="/website/static/default/js/vendor/jquery.js"></script>
-<script  src="/website/static/default/js/foundation/foundation.js"></script>
-<script  src="/website/static/default/js/jquery.slicknav.js"></script>
+
+<?php if($_SERVER[REQUEST_URI]=="/susu-bubuk"||$_SERVER[REQUEST_URI]=="/susu-cair"){ ?>
+<script>
+    $(document).ready(function() {
+            
+            // Animate the scroll to top
+            $('.go-top').click(function(event) {
+                event.preventDefault();
+                $(".main").moveTo(1);
+            })
+            
+        });
+</script>
+<script>
+    $(document).ready(function(){
+        $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: false,
+        loop: false,
+        pagination : false
+        });
+    });
     
+</script>
+<?php } ?>
+
 <script src="/website/static/default/js/foundation/foundation.dropdown.js"></script>
 <script src="/website/static/default/js/foundation/foundation.orbit.js"></script>
 <script>
-    $(document).foundation({
-      dropdown: {
-        // specify the class used for active dropdowns
-        active_class: 'opssen'
-      }
-    });
-    $( ".background1" ).hover(
-        function() {
-        $( this ).addClass( "hover" );
-        $( ".background2" ).addClass( "hovering1");
-        $( ".background3" ).addClass( "hovering1");
-        //$( this ).append( $( "<span> ***</span>" ) );
-        }, function() {
-        $( this ).removeClass( "hover" );
-        $( ".background2" ).removeClass( "hovering1");
-        $( ".background3" ).removeClass( "hovering1");
-        }
-    );
-
-    $( ".background2" ).hover(
-        function() {
-        $( this ).addClass( "hover" );
-        $( ".background1" ).addClass( "hovering2");
-        $( ".background3" ).addClass( "hovering2");
-        //$( this ).append( $( "<span> ***</span>" ) );
-        }, function() {
-        $( this ).removeClass( "hover" );
-        $( ".background1" ).removeClass( "hovering2");
-        $( ".background3" ).removeClass( "hovering2");
-        }
-    );
-
-    $( ".background3" ).hover(
-        function() {
-        $( this ).addClass( "hover" );
-        $( ".background2" ).addClass( "hovering3");
-        $( ".background4" ).addClass( "hovering3");
-        //$( this ).append( $( "<span> ***</span>" ) );
-        }, function() {
-        $( this ).removeClass( "hover" );
-        $( ".background2" ).removeClass( "hovering3");
-        $( ".background4" ).removeClass( "hovering3");
-        }
-    );
-
-    $( ".background4" ).hover(
-        function() {
-            $( this ).addClass( "hover" );
-            $( ".background2" ).addClass( "hovering4");
-            $( ".background3" ).addClass( "hovering4");
-            //$( this ).append( $( "<span> ***</span>" ) );
-        }, function() {
-            $( this ).removeClass( "hover" );
-            $( ".background2" ).removeClass( "hovering4");
-            $( ".background3" ).removeClass( "hovering4");
-            }
-    );
+   $(document).foundation({
+  dropdown: {
+    // specify the class used for active dropdowns
+    active_class: 'open'
+  }   
 
     
-</script>
-<script>
-    $(function(){
-        $('#menu').slicknav();
+});
+   $(document).ready(function(){
+    $(".submenucoklat").click(function (){
+        $(".main").moveTo(1);
+      });
+      $(".submenuvanila").click(function (){
+        $(".main").moveTo(2);
+      });
+      $(".submenuhoney").click(function (){
+        $(".main").moveTo(3);
+      });
+      $(".submenuinstant").click(function (){
+        $(".main").moveTo(4);
+      });
     });
-</script>  
+   
+  </script>

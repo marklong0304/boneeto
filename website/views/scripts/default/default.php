@@ -3,7 +3,7 @@
 
  <div class="row imagebot desktop-only">
     <div class="medium-3 column text-center background1">
-        <a href=""><img src="/website/static/default/img/imagebottom2-coklat2.png">
+        <a href="susu-bubuk"><img src="/website/static/default/img/imagebottom2-coklat2.png">
     </div>
     <div class="medium-3 column text-center background2">
         <a href=""><img src="/website/static/default/img/imagebottom1-2.png">

@@ -7,7 +7,10 @@
     
     <body id="index">
         <div class="wrapper" style="margin: 0 auto;">
-            <?php echo $this->template("includes/header_default.php") ?>
+
+            <div class="header" style="position:fixed !important;top:0px;z-index:9999;width:100%;">
+                <?php echo $this->template("includes/header_default.php") ?>
+            </div>
             
             <?php echo $this->layout()->content; ?>
             
