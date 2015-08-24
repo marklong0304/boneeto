@@ -50,7 +50,7 @@
 					    <form name="form_upload" id="uploadForm" method="post" action="/video/submit" role="form" class="form-horizontal">
                             <div class="form-group">
                                 <label>Video URL <small>*Must be on YouTube</small></label>
-                                <input type="text" class="form-control" placeholder="https://www.youtube.com/watch?v=S_ucMS7sxx8" tabindex="1" name='youtube_url' >
+                                <input type="text" class="form-control" placeholder="https://www.youtube.com/watch?v=S_ucMS7sxx8" tabindex="1"  name='youtube_url' >
                             </div><!--/ .form-group -->
                             <div class="form-group">
                                 <label>Title</label>

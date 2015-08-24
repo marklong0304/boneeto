@@ -20,7 +20,6 @@ class VideoController extends Action {
 		$title =$_POST['title'];
 		$desc =$_POST['desc'];
 		$namekey = str_replace(' ', '_', $title)."_".strtotime(date("YmdHis"));
-		
 		$videos = new Object_Videos();
 		$videos->setyoutubeLinks($youtube_url);
 		$videos->settitle($title);
@@ -35,10 +34,12 @@ class VideoController extends Action {
 		$videos->setvideo($videoData);
 		
 		$videos->setKey(strtolower($namekey));
-		$videos->setO_parentId('20');
+		$videos->setO_parentId('2');
 		$videos->setIndex(0);
 		$videos->setPublished(1);
 		$videos->save();
-		$this->_redirect('/');
+		
+		$this->redirect('/');
+		
 	}
 }

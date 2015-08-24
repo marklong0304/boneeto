@@ -6,7 +6,6 @@
      */
 	@ include_once("function.youtube.php");
 ?>
-
 <section class="carousel-home">
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">

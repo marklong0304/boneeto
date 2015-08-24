@@ -4,12 +4,21 @@ use Website\Controller\Action;
 
 class EventController extends Action {
 	
-	public function defaultAction () {
+	public function  defaultAction () {
 		$this->enableLayout();
-		$this->setLayout("layout");
+		$this->layout()->setLayout('layout');
+		$lists = new Object\Videos\Listing();
+		$lists->setOrder('asc');
+		$lists->setLimit(4);
+		$list = array();
+		$i=0;
+		foreach ($lists as $lis){
+			if($lis->approve){
+				$list[$i]= array($lis->youtubeLinks,$lis->title); $i++;
+			}
+		}
 	}
 	public function galleryAction() {
-
 		$lists = new Object\Videos\Listing();
 		$lists->setOrder('asc');
 		$list = array();
