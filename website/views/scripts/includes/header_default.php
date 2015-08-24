@@ -13,9 +13,9 @@
                         </ul>
                     </li>
                     <li><a href="">Promo</a></li>
-                    <li><a href="">B-Friends</a></li>
-                    <li><a href="">Kontak</a></li>
-                    <li><a href="">Events</a></li>
+                    <li><a href="bfriends">B-Friends</a></li>
+                    <li><a href="contact">Kontak</a></li>
+                    <li><a href="event">Events</a></li>
                 </ul>
                 <ul id="menu">
                     <li>Produk
