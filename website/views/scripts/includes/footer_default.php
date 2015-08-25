@@ -51,26 +51,7 @@
 
     
 });
-   $(document).ready(function(){
-    $(".submenucoklat").click(function (){
-        $(".main").moveTo(1);
-      });
-      $(".submenuvanila").click(function (){
-        $(".main").moveTo(2);
-      });
-      $(".submenuhoney").click(function (){
-        $(".main").moveTo(3);
-      });
-      $(".submenuinstant").click(function (){
-        $(".main").moveTo(4);
-      });
-      $(".submenustrawberry").click(function (){
-        $(".main").moveTo(3);
-      });
-      $(".submenuchocoberry").click(function (){
-        $(".main").moveTo(4);
-      });
-    });
+
    
   </script>
 <script>

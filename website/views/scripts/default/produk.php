@@ -40,5 +40,10 @@
                 '</div>'+
              '</div> '
             );
+
+        $(".link").click(function(){
+          no = $(this).attr("data-target");
+          $(".main").moveTo(no);
+        });
     });
 </script>

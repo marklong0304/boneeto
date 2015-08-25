@@ -32,28 +32,5 @@
             </div>
         </div>
     </div>
-    <?php if($_SERVER[REQUEST_URI]=="/susu-bubuk"){ ?>
-    <div class="row" style="height:0px !important;">
-        <div class="medium-12 column text-right submenususububuk">
-            <ul class="submenu">
-            <li class="submenucoklat"><img src="/website/static/default/img/submenucoklat.png"><br>Chocolate</li>  
-            <li class="submenuvanila"><img src="/website/static/default/img/submenuvanila.png"><br>Vanila</li> 
-            <li class="submenuhoney"><img src="/website/static/default/img/submenuhoney.png"><br>Honey</li>    
-            <li class="submenuinstant"><img src="/website/static/default/img/submenuhoney.png"><br>Instant</li>    
-            </ul>
-        </div>
-     </div> 
-    <?php }elseif($_SERVER[REQUEST_URI]=="/susu-cair"){?>
-    <div class="row" style="height:0px !important;">
-        <div class="medium-12 column text-right submenususucair">
-            <ul class="submenu">
-            <li class="submenucoklat"><img src="/website/static/default/img/submenucoklatcair.png"><br>Choco<br>Choc</li>  
-            <li class="submenuvanila"><img src="/website/static/default/img/submenuvanilacair.png"><br>Vanila<br>Twister</li>  
-            <li class="submenustrawberry"><img src="/website/static/default/img/submenustrawberrycair.png"><br>Strawberry</li> 
-            <li class="submenuchocoberry"><img src="/website/static/default/img/submenuchocoberrycair.png"><br>Choco<br><span class="color-berry">Berry</span></li>    
-            </ul>
-            
-        </div>
-     </div> 
-    <?php } ?>
+    <span id="external"></span>
 <!-- end header -->
