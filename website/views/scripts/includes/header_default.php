@@ -1,15 +1,20 @@
 <!-- header -->
 <?php $uri = $_SERVER[REQUEST_URI]; ?>
     <div class="row">
-        <div class="medium-4 column text-left logo"><a href=""><img src="/website/static/default/img/logo.png"></a></div>
+        <div class="medium-4 column text-left logo"><a href="../"><img src="/website/static/default/img/logo.png"></a></div>
         <div class="medium-8 column text-right">
             <div class="top-bar-section">
                 <ul class="bonetto-menu-top desktop">
                     <li class="<?php if($uri=="/susu-bubuk"||$uri=="/susu-cair")echo "active"; ?>">
                         <a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" data-options="is_hover:true">Produk</a>
                         <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-                            <li style="text-align:center;"><a href="susu-bubuk"><img src="/website/static/default/img/susububukmenu.png"><br>SUSU BUBUK</a></li>
-                            <li style="text-align:center;"><a href="susu-cair"><img src="/website/static/default/img/susucairmenu.png"><br>SUSU CAIR</a></li>
+                            <?php 
+                                foreach ($this->menuProduk as $key) {
+                                    $menu = $key[nama];
+                                    $img = $key[img];
+                                    echo '<li style="text-align:center;"><a href="'.$key[link].'"><img 
+                                    style="padding-top: 10px;height: 77px;" src="'.$img.'"><br>'.strtoupper($menu).'</a></li>';
+                                } ?>
                         </ul>
                     </li>
                     <li><a href="promodetil">Promo</a></li>

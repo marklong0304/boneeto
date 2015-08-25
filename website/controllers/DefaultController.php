@@ -6,6 +6,13 @@ class DefaultController extends Action {
 	
 	public function defaultAction () {
  
+		
+		$this->view->menuProduk = $this->menuProduk();
+		$this->enableLayout();
+		$this->setLayout('default');
+	}
+
+	function menuProduk(){
 		$db = Pimcore_Resource_Mysql::get();
 		$getId=Object_Abstract::getByPath('/produk');//get folder id
 		
@@ -37,10 +44,7 @@ class DefaultController extends Action {
 				// echo $entry->getImg()."<br>";
 			}
 		}
-		// die();
-		$this->view->menuProduk = $data;
-		$this->enableLayout();
-		$this->setLayout('default');
+		return $data;
 	}
 
 	public function galleryAction() {
