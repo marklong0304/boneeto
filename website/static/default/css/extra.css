@@ -66,8 +66,8 @@ position:relative;
 
    /*.wrapper {width:810px !important; }*/
 #index .wrapper,#bfriends .wrapper,#contact .wrapper {
-background: url("/website/static/default/img/bghome.jpg") center 113px no-repeat;
-background-size:cover;
+/*background: url("/website/static/default/img/bghome.jpg") center 113px no-repeat;
+background-size:cover;*/
 }  
 
 #contact .wrappercontact {

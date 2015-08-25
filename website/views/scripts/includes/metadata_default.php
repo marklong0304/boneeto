@@ -6,7 +6,7 @@
 	<link type="text/css" rel="stylesheet" href="/website/static/default/css/foundation.min.css" />
 	<link type="text/css" rel="stylesheet" href="/website/static/default/css/normalize.css" />
 	<link type="text/css" rel="stylesheet" href="/website/static/default/css/slicknav.css" />
-	<link type="text/css" rel="stylesheet" href="/website/static/default/css/extra.css"  -->/>
+	<link type="text/css" rel="stylesheet" href="/website/static/default/css/extra.css" /> -->
 
 	<link type="text/css" rel="stylesheet" href="/website/static/default/css/slicknav.css" />
 	<link rel="stylesheet" href="/website/static/default/css/foundation.css" />

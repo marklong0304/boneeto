@@ -12,7 +12,7 @@
                             <li style="text-align:center;"><a href="susu-cair"><img src="/website/static/default/img/susucairmenu.png"><br>SUSU CAIR</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Promo</a></li>
+                    <li><a href="promodetil">Promo</a></li>
                     <li><a href="bfriends">B-Friends</a></li>
                     <li><a href="contact">Kontak</a></li>
                     <li><a href="event">Events</a></li>

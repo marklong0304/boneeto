@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer" style="margin-top: 30px;">
     <div class="row">
     <div class="medium-6 column text-left">
     <ul>
@@ -135,7 +135,7 @@ $( ".background3" ).removeClass( "hovering4");
     
   </script>
   <script>
-    $(function(){
-        $('#menu').slicknav();
-    });
+    // $(function(){
+        // $('#menu').slicknav();
+    // });
 </script>  
