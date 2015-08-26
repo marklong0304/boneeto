@@ -1,4 +1,4 @@
-<div class="footer" style="margin-top: 30px;">
+<div class="footer">
     <div class="row">
     <div class="medium-6 column text-left">
     <ul>

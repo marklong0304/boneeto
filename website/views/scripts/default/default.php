@@ -1,5 +1,12 @@
 <!-- start -->
 <?php echo $this->areablock('container-default',  array('allowed' => array('banner-slider'))) ?>
+<style type="text/css">
+	body {
+		background: #00a2ff url("../img/bgheader.jpg") center top repeat-x;
+	}
+	#index .footer {
+}
+</style>
 
  <div class="row imagebot desktop-only">
     <div class="medium-3 column text-center background1">

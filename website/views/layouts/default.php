@@ -5,7 +5,7 @@
         <?php echo $this->template("includes/metadata_default.php")?>     
     </head>
     
-    <body id="index" style ="margin-top: 83px;" >
+    <body id="index" style ="margin-top: 125px;" >
         <div class="wrapper" style="margin: 0 auto;">
 
             <div class="header" style="position:fixed !important;top:0px;z-index:9999;width:100%;">
