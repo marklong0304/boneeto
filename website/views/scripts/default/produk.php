@@ -1,4 +1,24 @@
 <!-- start -->
+<link href='/website/static/default/css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/website/static/default/js/jquery.onepage-scroll.js"></script>
+<style>
+    html {
+      height: 100%;
+    }
+
+    .wrapper {
+        height: 100% !important;
+        height: 100%;
+        margin: 0 auto; 
+        overflow: hidden;
+    }
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+</style>
+
 <style type="text/css">
     .submenu.link{
         float: left;
