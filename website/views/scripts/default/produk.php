@@ -71,3 +71,25 @@
         });
     });
 </script>
+<script>
+    $(document).ready(function() {
+            
+            // Animate the scroll to top
+            $('.go-top').click(function(event) {
+                event.preventDefault();
+                $(".main").moveTo(1);
+            })
+            
+        });
+</script>
+<script>
+    $(document).ready(function(){
+        $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: false,
+        loop: false,
+        pagination : false
+        });
+    });
+    
+</script>

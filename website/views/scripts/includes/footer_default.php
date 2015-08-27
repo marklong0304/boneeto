@@ -15,31 +15,6 @@
     </div>
 </div>
 
-<?php if($_SERVER[REQUEST_URI]=="/susu-bubuk"||$_SERVER[REQUEST_URI]=="/susu-cair"){ ?>
-<script>
-    $(document).ready(function() {
-            
-            // Animate the scroll to top
-            $('.go-top').click(function(event) {
-                event.preventDefault();
-                $(".main").moveTo(1);
-            })
-            
-        });
-</script>
-<script>
-    $(document).ready(function(){
-        $(".main").onepage_scroll({
-        sectionContainer: "section",
-        responsiveFallback: false,
-        loop: false,
-        pagination : false
-        });
-    });
-    
-</script>
-<?php } ?>
-
 <script src="/website/static/default/js/foundation/foundation.dropdown.js"></script>
 <script src="/website/static/default/js/foundation/foundation.orbit.js"></script>
 <script>
