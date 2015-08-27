@@ -1,6 +1,15 @@
-<style>
-a{
-	color:white;
+<style type="text/css">
+	body {
+		background: #00a2ff url("../img/bgheader.jpg") center top repeat-x;
+	}
+	a{
+		color:white;
+	}
+	.emas	a{
+		color:#FFD502;
+	}
+	#index .footer {
+  margin-top: 30px;
 }
 </style>
 
@@ -24,6 +33,7 @@ a{
  title="Share by Email"><li class="emailicon"></li></a>
 	</ul> 	
 	</div>
+		<span class="font-PoetsenOne size-22 color-kuning text-shadow"><?php echo $this->input('subtitle', array("width" => 900))?></span>
  </div> 
     
 	<div class="row push-top2">
@@ -70,7 +80,7 @@ a{
  	<strong><?php echo $this->wysiwyg('desc-hadiah', array("width" => 900))?></strong>
 	<h2><?php echo $this->input('syarat', array("width" => 900))?></h2>
  	<strong><?php echo $this->wysiwyg('desc-syarat', array("width" => 900))?></strong>
- 	
+ 	<h2 class ="emas"  ><?= $this->link("myLink"); ?> </h2>
 	</div>
 	
  </div> 

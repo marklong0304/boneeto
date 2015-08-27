@@ -38,6 +38,10 @@
     .subtitleprodukright{
         text-align: right;
     }
+	 .header {
+		margin-top : 12px;
+		
+	}
 </style>
 <div class="main">
     <?php 

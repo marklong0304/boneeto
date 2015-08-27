@@ -129,7 +129,7 @@ class DefaultController extends Action {
 				$value = '
 							<section>
 							    <div class="page" id="page" style="background: url('."'".$background[$noimg]."'".') top center repeat-x !important;
-							    	background-size:cover !important;padding: 0px 20px;color: #00305c;height: 100%;">
+							    	background-size:cover !important;padding: 0px 20px;color: #00305c;height: 100%; margin-top:-30px;">
 							        <div class="row">
 							            <div class="medium-6 column text-center pack"><img src="'.$entry->getImg().'"></div>
 							            
@@ -148,7 +148,7 @@ class DefaultController extends Action {
 				$value = '
 						<section>
 						    <div class="page" id="page" style="background: url('."'".$background[$noimg]."'".') top center repeat-x !important;
-							    	background-size:cover !important;padding: 0px 20px;color: #00305c;height: 100%;">
+							    	background-size:cover !important;padding: 0px 20px;color: #00305c;height: 100%;  margin-top:-30px;">
 
 						        	<div class="row">
 						            <div class="medium-6 column">

@@ -1,5 +1,21 @@
 <!-- start -->
 <?php echo $this->areablock('container-default',  array('allowed' => array('banner-slider'))) ?>
+<style type="text/css">
+	body {
+		background: #00a2ff url("../img/bgheader.jpg") center top repeat-x;
+	}
+	.js .slicknav_menu {
+		display: block;
+		position: absolute;
+		right: 0px;
+		width: 100%;
+		background:none !important;
+		z-index: 9999;
+		padding: 0px;
+		margin-top:53px;
+		position:fixed;
+	}
+</style>
 
  <div class="row imagebot desktop-only">
     <div class="medium-3 column text-center background1">

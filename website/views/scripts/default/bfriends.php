@@ -1,3 +1,24 @@
+<style type="text/css">
+	.pimcore_area_banner-slider.pimcore_area_content{
+	    margin-top: -30px;
+		padding-top: 113px;
+	}
+	.main.onepage-wrapper{
+		margin-top: -30px;
+	}
+	/*navigasi nambah event*/
+	.medium-8.column.text-right{
+	    float: left;
+	    width: 100%;
+	    margin-left: 310px;
+	}
+	body {
+		background: #00a2ff url("../img/bgheader.jpg") center top repeat-x;
+	}
+	a{
+		color:white;
+	}
+</style>
 <div class="main">
 	<section>
 	

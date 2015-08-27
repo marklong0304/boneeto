@@ -1,3 +1,17 @@
+ <style type="text/css">
+	body {
+		background: url("/website/static/default/img/bghome.jpg")  repeat;
+	}
+	.wrappercontact{
+		background: #00a2ff url("../img/bgheader.jpg") center top repeat-x;
+		width:1349px;
+		height : 558px;
+	}
+	#index .footer {
+	margin-top: 30px;
+}
+</style>
+
  <div class="row push-top2 rel-pos">
  	<div class="medium-6 column text-left bottom">
  	<span class="titlepromobig font-PoetsenOne size-32 color-biru2">Silakan hubungi kami</span><br>
@@ -50,3 +64,4 @@
 	</div>
 	</div>
  </div>
+ 
