@@ -116,7 +116,7 @@ $( ".background3" ).removeClass( "hovering4");
     
   </script>
   <script>
-    // $(function(){
+    $(function(){
         // $('#menu').slicknav();
-    // });
+    });
 </script>  

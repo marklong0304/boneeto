@@ -12,10 +12,10 @@
 	<link rel="stylesheet" href="/website/static/default/css/foundation.css" />
 	<link rel="stylesheet" href="/website/static/default/css/normalize.css" />
 	<link rel="stylesheet" href="/website/static/default/css/extra.css"/>
-
     <script src="/website/static/default/js/vendor/modernizr.js"></script>
     <script src="/website/static/default/js/vendor/jquery.js"></script>
 	<script src="/website/static/default/js/foundation/foundation.js"></script>
+	<script src="/website/static/default/js/jquery.slicknav.js"></script>
 
 	<link rel="icon" type="image/png" href="/website/static/default/img/logo.png" />
 
