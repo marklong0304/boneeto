@@ -1,10 +1,13 @@
+<link href='/website/static/default/css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="/website/static/default/js/jquery.onepage-scroll.js"></script>
 <style type="text/css">
 	.pimcore_area_banner-slider.pimcore_area_content{
+	
 	    margin-top: -30px;
 		padding-top: 113px;
 	}
 	.main.onepage-wrapper{
-		margin-top: -30px;
+		margin-top: -115px;
 	}
 	/*navigasi nambah event*/
 	.medium-8.column.text-right{
@@ -13,10 +16,56 @@
 	    margin-left: 310px;
 	}
 	body {
-		background: #00a2ff url("../img/bgheader.jpg") center top repeat-x;
+		background: url("/website/static/default/img/bgheader.jpg") center top repeat-x;
 	}
 	a{
 		color:white;
+	}
+	 html {
+      height: 100%;
+    }
+
+    .wrapper {
+		background: #00a2ff url("../img/bgheader.jpg") center top repeat-x;	
+        height: 100% !important;
+        height: 100%;
+        margin: 0 auto; 
+        overflow: hidden;
+    }
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+	 .header {
+		margin-top : 12px;
+		
+	}
+	.footer {
+		position:fixed !important;
+		bottom:30px;
+	}
+	@media only screen and (max-width : 40em) {
+		.js .slicknav_menu {
+		
+		margin-top:-60px;
+		
+	}
+		html {
+			  margin-top: -55px
+		}
+		.footer {
+			bottom:0;
+		}
+		.main.onepage-wrapper{
+		margin-top: -115px;
+		}
+		.header {
+			margin-top : 0;
+		}
+		.push-top2 {
+			margin-top:20px;
+		}
 	}
 </style>
 <div class="main">
@@ -117,3 +166,15 @@
 		</div>
 </section>	 
 </div>
+
+<script>
+    $(document).ready(function(){
+        $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: false,
+        loop: false,
+        pagination : false
+        });
+    });
+    
+</script>

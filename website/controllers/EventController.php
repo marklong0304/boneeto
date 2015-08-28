@@ -9,14 +9,16 @@ class EventController extends Action {
 		$this->layout()->setLayout('layout');
 		$lists = new Object\Videos\Listing();
 		$lists->setOrder('asc');
-		$lists->setLimit(4);
 		$list = array();
 		$i=0;
 		foreach ($lists as $lis){
 			if($lis->approve){
 				$list[$i]= array($lis->youtubeLinks,$lis->title); $i++;
+				if($i == 4)break;
 			}
-		}
+		}		
+		
+		$this->view->videos = $list;
 	}
 	public function galleryAction() {
 		$lists = new Object\Videos\Listing();
@@ -33,7 +35,7 @@ class EventController extends Action {
 		$paginator->setCurrentPageNumber( $this->_getParam('page',1) );
 		$paginator->setItemCountPerPage(8);
 		$this->view->videos = $paginator;
-		//print_r($paginator);die();
+		// print_r($paginator);die();
 		$this->enableLayout();
 	}
 }

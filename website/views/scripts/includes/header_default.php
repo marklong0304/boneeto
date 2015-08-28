@@ -2,7 +2,7 @@
 <?php $uri = $_SERVER[REQUEST_URI]; ?>
     <div class="row">
         <div class="medium-4 column text-left logo"><a href="../"><img src="/website/static/default/img/logo.png"></a></div>
-        <div class="medium-8 column text-right">
+        <div class="medium-8 column text-right" >
             <div class="top-bar-section">
                 <ul class="bonetto-menu-top desktop">
                     <li class="<?php if($uri=="/susu-bubuk"||$uri=="/susu-cair")echo "active"; ?>">

@@ -35,7 +35,7 @@
 	}
 </style>
  
-<?php if($_SERVER[REQUEST_URI]=="/susu-bubuk"||$_SERVER[REQUEST_URI]=="/susu-cair"){ ?>
+<?php if($_SERVER[REQUEST_URI]=="/susu-bubuk"||$_SERVER[REQUEST_URI]=="/susu-cair" ){ ?>
      <link href='/website/static/default/css/onepage-scroll.css' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="/website/static/default/js/jquery.onepage-scroll.js"></script>
 <style>

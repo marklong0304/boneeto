@@ -4,6 +4,7 @@
 	body {
 		background: #00a2ff url("../img/bgheader.jpg") center top repeat-x;
 	}
+	@media only screen and (max-width: 640px) {
 	.js .slicknav_menu {
 		display: block;
 		position: absolute;

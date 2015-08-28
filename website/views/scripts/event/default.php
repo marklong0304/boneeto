@@ -132,18 +132,17 @@
             </div><!--/ .col-xs-12 -->
         </div><!--/ .row -->
         <?php //for( $i = 0; $i < 3; $i++ ): 
-		$videos = new Object\Videos\Listing();
-		$videos->setLimit(4);
-		
-		foreach ($videos as $v) { 
+		// $videos = new Object\Videos\Listing();
+		// $videos->setLimit(4);
+		foreach ($this->videos as $v) { 
 		?>
 			
         <!--<div class="row mb32">-->
             <div class="col-xs-12 col-sm-6 col-md-3">
-                <a href="#" class="gallery-item" data-title="Video 1" data-views="1566123" data-likes="1566123" data-url="<?php echo youtube_get_id($v->youtubeLinks); ?>">
-                    <img src="<?php echo youtube_get_thumbnail($v->youtubeLinks); ?>" alt="Title" class="img-responsive">
+                <a href="#" class="gallery-item" data-title="Video 1" data-views="1566123" data-likes="1566123" data-url="<?php echo youtube_get_id($v[0]); ?>">
+                    <img src="<?php echo youtube_get_thumbnail($v[0]); ?>" alt="Title" class="img-responsive">
                     <div class="gallery-item-meta">
-                        <h4><?php echo $v->title ; ?></h4>
+                        <h4><?php echo $v[1] ; ?></h4>
                         <div class="row">
                             <div class="col-xs-12 col-sm-6">
                                <!-- <p><i class="fa fa-eye"></i> 1,566,123</p>-->
