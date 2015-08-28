@@ -1558,8 +1558,3 @@ margin-bottom:15px;
 		width:auto !important;
 	}
  }
-  @media (max-width: 1210px) {
-	.medium-8 column text-right{
-		display:none;
-	}
-  }
