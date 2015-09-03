@@ -17,9 +17,6 @@
       width: 100%;
       margin: 0 auto;
     }
-</style>
-
-<style type="text/css">
     .submenu.link{
         float: left;
     } 
@@ -78,8 +75,7 @@
             $('.go-top').click(function(event) {
                 event.preventDefault();
                 $(".main").moveTo(1);
-            })
-            
+            })    
         });
 </script>
 <script>
@@ -91,5 +87,4 @@
         pagination : false
         });
     });
-    
 </script>

@@ -17,7 +17,6 @@ class EventController extends Action {
 				if($i == 4)break;
 			}
 		}		
-		
 		$this->view->videos = $list;
 	}
 	public function galleryAction() {
@@ -30,12 +29,10 @@ class EventController extends Action {
 				$list[$i]= array($lis->youtubeLinks,$lis->title); $i++;
 			}
 		}
-		//$list->setOrder('asc');
 		$paginator = Zend_Paginator::factory($list);
 		$paginator->setCurrentPageNumber( $this->_getParam('page',1) );
 		$paginator->setItemCountPerPage(8);
 		$this->view->videos = $paginator;
-		// print_r($paginator);die();
 		$this->enableLayout();
 	}
 }
