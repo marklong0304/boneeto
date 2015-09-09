@@ -3,7 +3,6 @@
 use Website\Controller\Action;
 
 class ContactController extends Action {
-	
 	public function sendAction () {
 		if (get_magic_quotes_gpc() === 1)
 		{
@@ -44,7 +43,7 @@ class ContactController extends Action {
 		$mail = new Pimcore_Mail();
 		$mail->setSubject("Contact");
 		$mail->setFrom($email,$name);
-		$mail->addTo('rikysutriadiputra@gmail.com');
+		$mail->addTo('robbi@dreamcube.co.id');
 		$mail->setDocument($emailDocument);
 		// $mail->setBodyText("This is just plain text");
 		$mail->setParams($params);
